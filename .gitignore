@@ -1,3 +1,9 @@
+# Build artifacts
+build/*
+out/*
+*img
+*list
+
 # Prerequisites
 *.d
 

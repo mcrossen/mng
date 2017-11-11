@@ -2,7 +2,8 @@
 *The Offical MNG Repository*
 
 MNG stands for Mng's Not Gnu. It is a simple kernel I developed during a 6 hour
-hackathon.
+hackathon. I originally intended to port [yak](https://github.com/mcrossen/yak)
+to the pi, but didn't have enough time.
 
 ## Building
 1. get the right cross compiler.

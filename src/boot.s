@@ -78,7 +78,7 @@
      mrs     x4, far_el1
      mrs     x5, sctlr_el1
      mrs     x6, tcr_el1
-     b       uart_exc
+     b       error
      .align  7
      mov     x0, #1
      mrs     x1, esr_el1
@@ -87,7 +87,7 @@
      mrs     x4, far_el1
      mrs     x5, sctlr_el1
      mrs     x6, tcr_el1
-     b       uart_exc
+     b       error
      .align  7
      mov     x0, #2
      mrs     x1, esr_el1
@@ -96,7 +96,7 @@
      mrs     x4, far_el1
      mrs     x5, sctlr_el1
      mrs     x6, tcr_el1
-     b       uart_exc
+     b       error
      .align  7
      mov     x0, #3
      mrs     x1, esr_el1
@@ -105,4 +105,4 @@
      mrs     x4, far_el1
      mrs     x5, sctlr_el1
      mrs     x6, tcr_el1
-     b       uart_exc
+     b       error
